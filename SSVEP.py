@@ -1,7 +1,7 @@
 
 
 from psychopy import visual, core, event
-import csv_collector
+#import csv_collector
 from numpy import pi, sin, repeat
 from random import shuffle
 
