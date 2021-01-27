@@ -13,7 +13,7 @@ class SSVEP(object):
     #Flash frequency = refreshrate/(frame_on+frame_off)
     
     def __init__(self, mywin=visual.Window([900, 700], fullscr=False, monitor='testMonitor', units='deg'),
-                freq=[8], trialdur = 2.0, port='/dev/tty.usbserial-DM00D5SD',
+                freq=[8], trialdur = 2.0, port='xxx',
                 fname='SSVEP.csv', numtrials=1, waitdur=2):
         self.mywin = mywin
         self.trialdur = trialdur
